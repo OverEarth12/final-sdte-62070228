@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  frontend:
+    image: overearth12/frontend:1.0.0
+    build: ./frontend
+
+  backend:
+    image: overearth12/backend:1.0.0
+    build: ./backend
